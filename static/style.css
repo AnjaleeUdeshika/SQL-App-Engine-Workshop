@@ -30,8 +30,8 @@
     font-size: 30px;
     letter-spacing: 0.1rem;
     margin-top: auto;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
     cursor: pointer;
     transition: all 0.3s linear;
   }
@@ -185,15 +185,6 @@ a{
   text-decoration: underline;
 }
 
-.back-btn-conternar{
-  margin-top: 40px;
-  margin-bottom: 20px;
-  padding-left:  15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-align: left;
-  background-color: hsl(58, 81%, 65%);;
-}
 
 .no-result{
   text-transform: capitalize;
@@ -213,4 +204,12 @@ a{
   border-radius: 4px;
   padding: 5px;
   width: 100px;
+}
+
+.modal-content{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.save{
+  width: 100%;
 }
