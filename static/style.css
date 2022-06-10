@@ -1,0 +1,216 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+.btn {
+    size: lg;
+    display: inline-block;
+    background: hsl(58, 81%, 65%);;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.25rem;;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    margin-top: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+
+  .btn:hover {
+    background: hsl(74, 52%, 45%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  h1{
+      margin-bottom: 5rem;
+      text-transform: capitalize;
+      color: hsl(173, 65%, 40%);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+  }
+
+  body{
+    background-image: url(https://media.istockphoto.com/vectors/kawaii-camomile-mascot-vector-id1220636142?k=20&m=1220636142&s=612x612&w=0&h=pE2RMsJOtlXe8ekQnq7q-vITYMzVdLl9Ki_qoRVA1x0=);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+
+
+  .text-center{
+    background-color: #e6e6e6;
+    padding: 10px;
+  }
+  table, th, td {
+    background-color: black;
+    border: 0.5px solid hsl(85, 77%, 43%);;
+    border-collapse: collapse;
+    padding: 10px;
+    color: hsl(58, 81%, 65%);;
+    font-weight: 600;
+  
+  }
+
+  table{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .row{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    background-color: #f2f2f2;
+  }
+
+  .col-1, .col-2{
+    padding: 10px;
+  }
+
+  .col-1 > .objImg, .col-2 > .objImg {
+    max-width: 70%;
+    max-height: 50%;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+
+::-webkit-file-upload-button {
+  display: inline-block;
+  background: hsl(58, 81%, 65%);;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear; 
+
+ }
+
+ ::-webkit-file-upload-button:hover{
+  background: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+ }
+
+ .serach-form {
+   background-color: hsl(58, 81%, 65%);;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  height: 5rem;
+  padding: 5px 15px;
+ }
+
+.serach{
+  display: inline-block;
+  background: hsl(58, 81%, 65%);;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear; 
+}
+
+.serach:hover{
+  background: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%)
+}
+
+.search-container{
+  display: inline-grid;
+  grid-template-columns: 0.75fr 2fr;
+  width: 100%;
+  margin-top: 2px;
+  background-color: hsl(58, 81%, 65%);;
+}
+
+.col-1 >.search-img{
+  max-width: 300px;
+  height: auto;
+  border: 3px solid #020202;
+  border-radius: 5px;
+}
+
+.serch-item{
+  display: flex;
+  height: 50px;
+  text-align: left;
+  align-items: center;
+  padding-left: 20px ;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+a{
+  text-decoration: none;
+}
+
+.serch-item:hover{
+  text-decoration: underline;
+}
+
+.back-btn-conternar{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left:  15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: hsl(58, 81%, 65%);;
+}
+
+.no-result{
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  align-items: center;
+  color: rgb(255, 0, 0);
+}
+
+.hide{
+  display: none;
+}
+
+.country-img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
